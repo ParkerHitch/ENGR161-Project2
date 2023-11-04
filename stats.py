@@ -1,4 +1,5 @@
 # Fermenters
+FERM_KWH = [46600, 47200, 47500, 4800]
 FRMT_EFF = [0.5, 0.75, 0.9, 0.95]
 FRMT_CPH = [320, 380, 460, 1100]
 
@@ -6,10 +7,12 @@ FRMT_ETH_PER_SUG = 46*2/180
 FRMT_CO2_PER_SUG = 44*2/180
 
 # Distillers
-DIST_EFF = [0.81, 0.9, 0.915, 0.95]
+DIST_KWH = [46004, 47812, 48200, 49500]
+DIST_EFF = [0.81, 0.9, 0.915, 0.98]
 DIST_CPH = [390, 460, 560, 1370]
 
 # Filters & Dehydraters
+FILT_KWH = [48800, 49536, 50350, 5100]
 FILT_EFF = [0.5, 0.75, 0.9, 0.98]
 FILT_CPH = [200, 240, 280, 480]
 
@@ -34,6 +37,12 @@ PIPE_CPM_MTRX = [[1.00, 1.20, 2.57, 6.30, 14, 26],
                  [2.70, 3.23, 6.94, 17, 37, 69],
                  [2.97, 3.55, 7.64, 19, 40, 76]]
 
+# Bends
+BEND_PLC = [0.1, 0.15, 0.2, 0.22, 0.27, 0.3]
+
+# Valves
+VALVE_FC = [800, 700, 600, 500]
+
 # Ducts
 DUCT_IND = [1, 1.25, 1.5]
 DUCT_FF = .002
@@ -44,4 +53,9 @@ DENS_SUG = 1599
 DENS_ETH = 789
 DENS_FIB = 1311
 DENS_WAT = 997
+DENS_CO2 = 1.98
 
+ETH_NGR_DENS = 80.1e6
+
+# Constants
+GRAV = 9.81
