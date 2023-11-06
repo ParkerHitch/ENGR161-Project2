@@ -1,4 +1,4 @@
-import actualMath as m
+import mainMath as m
 import stats
 import datetime
 
